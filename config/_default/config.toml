@@ -1,8 +1,8 @@
 # Change baseurl before deploy
-baseurl = "https://demo.stack.jimmycai.com"
+baseurl = "https://ariollex.github.io"
 languageCode = "en-us"
 paginate = 5
-title = "Hugo Theme Stack Starter"
+title = "Ariollex"
 theme = "hugo-theme-stack"
 
 # Theme i18n support

@@ -2,9 +2,17 @@
 title: About
 links:
   - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
+    description: My GitHub account
+    website: https://github.com/Ariollex
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: Twitter
+    description: My Twitter account
+    website: https://github.com/Ariollex
+    image: https://abs.twimg.com/favicons/twitter.2.ico
+  - title: Telegram
+    description: My Telegram account
+    website: https://t.me/Ariollex
+    image: https://telegram.org/img/website_icon.svg
 menu:
     main: 
         weight: 2
@@ -14,20 +22,8 @@ menu:
 comments: false
 ---
 
-To use this feature, add `links` section to frontmatter.
+My name is Artem Agapkin, who is called Ariollex on the Internet. I am working on some projects like android rom. I am using Windows 11 / Ubuntu 20.04 LTS (dual boot) on ASUS VivoBook S15 M533IA.
 
-This page's frontmatter:
+I prefer Python for programming, but I'm also learning other languages.
 
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.
+I am available on Telegram almost all the time, except for sleep. You can write to me in telegram (Please don't write a stupid “hi” and don't expect me to answer it. Write your question or request right away). You can also email me ariollex@gmail.com.
