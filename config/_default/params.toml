@@ -18,7 +18,7 @@ subtitle = "Android enthusiast"
 [sidebar.avatar]
 enabled = true
 local = false
-src = "img/avatar.png"
+src = "/img/avatar.png"
 
 [article]
 math = false
