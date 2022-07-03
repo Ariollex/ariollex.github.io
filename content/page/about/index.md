@@ -7,7 +7,7 @@ links:
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
   - title: Twitter
     description: My Twitter account
-    website: https://github.com/Ariollex
+    website: https://twitter.com/Ariollex
     image: https://abs.twimg.com/favicons/twitter.2.ico
   - title: Telegram
     description: My Telegram account
