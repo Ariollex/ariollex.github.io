@@ -403,7 +403,21 @@
 <li>your_name - Username, GitHub nickname</li>
 <li><a class="link" href="mailto:email@example.com" >email@example.com</a> - GitHub account email</li>
 </ul>
-<h2 id="downloading-repo">Downloading repo</h2>
+<h2 id="other-settings">Other settings</h2>
+<h3 id="lc_all">LC_ALL</h3>
+<ul>
+<li>LC_ALL is the environment variable that overrides all the other localisation settings. The C locale is a special locale that is meant to be the simplest locale. <a class="link" href="https://unix.stackexchange.com/questions/87745/what-does-lc-all-c-do/87763#87763"  target="_blank" rel="noopener"
+    >More detailed</a></li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;export LC_ALL=C&#34;</span> &gt;&gt; ~/.bashrc
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="downloading-repo">Downloading repo</h2>
 <ul>
 <li>To sync the sources, we need a repo. Let&rsquo;s install it right from <a class="link" href="https://storage.googleapis.com/git-repo-downloads/repo"  target="_blank" rel="noopener"
     >https://storage.googleapis.com/git-repo-downloads/repo</a>.</li>
@@ -419,7 +433,19 @@
 </div><ul>
 <li>Well, now you can sync the repo.</li>
 </ul>
-
+<h3 id="download-problems">Download problems</h3>
+<ul>
+<li>If the download is stuck at 99%, you can use this and re-sync</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo sysctl -w net.ipv4.tcp_window_scaling<span class="o">=</span><span class="m">0</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
 </section>
 
 
@@ -633,7 +659,16 @@
         <li><a href="#git">Git</a></li>
       </ol>
     </li>
-    <li><a href="#downloading-repo">Downloading repo</a></li>
+    <li><a href="#other-settings">Other settings</a>
+      <ol>
+        <li><a href="#lc_all">LC_ALL</a></li>
+      </ol>
+    </li>
+    <li><a href="#downloading-repo">Downloading repo</a>
+      <ol>
+        <li><a href="#download-problems">Download problems</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
         </div>
