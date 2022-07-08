@@ -53,9 +53,23 @@ git config --global user.name your_name && git config --global user.email email@
 - your_name - Username, GitHub nickname
 - email@example.com - GitHub account email
 
+
+## Other settings
+### LC_ALL
+- LC_ALL is the environment variable that overrides all the other localisation settings. The C locale is a special locale that is meant to be the simplest locale. [More detailed](https://unix.stackexchange.com/questions/87745/what-does-lc-all-c-do/87763#87763)
+```bash
+echo "export LC_ALL=C" >> ~/.bashrc
+```
+
 ## Downloading repo
 - To sync the sources, we need a repo. Let's install it right from https://storage.googleapis.com/git-repo-downloads/repo.
 ```bash
 cd $HOME && mkdir ~/bin && PATH=~/bin:$PATH && curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo
 ```
 - Well, now you can sync the repo.
+
+### Download problems
+- If the download is stuck at 99%, you can use this and re-sync
+```bash
+sudo sysctl -w net.ipv4.tcp_window_scaling=0
+```
