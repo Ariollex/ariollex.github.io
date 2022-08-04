@@ -62,9 +62,9 @@ echo "export LC_ALL=C" >> ~/.bashrc
 ```
 
 ## Downloading repo
-- To sync the sources, we need a repo. Let's install it right from https://storage.googleapis.com/git-repo-downloads/repo.
+- To sync the sources, we need a repo. Let's install it right from https://gerrit.googlesource.com/git-repo/.
 ```bash
-cd $HOME && mkdir ~/bin && PATH=~/bin:$PATH && curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo
+cd $HOME && mkdir -p ~/.bin && PATH="${HOME}/.bin:${PATH}" && curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo && chmod a+rx ~/.bin/repo
 ```
 - Well, now you can sync the repo.
 
