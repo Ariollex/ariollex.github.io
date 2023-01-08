@@ -12,7 +12,8 @@ echo -e "\033[0;32mDeploying changes to GitHub...\033[0m"
 cd ~/public
 
 # Commit changes.
-git commit -am "[ArCI]: Push Built Site"
+git add .
+git commit -m "Push built site"
 
 # Push source and build repos.
 git push https://"$GH_PERSONAL_TOKEN"@github.com/Ariollex/ariollex.github.io.git main
